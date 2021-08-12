@@ -82,6 +82,8 @@
 #home::before{
     content: "";
     background:url('../images/10.jpg') no-repeat center center;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
     background-size: 2000px;
     position: absolute;
     height: 100%;
